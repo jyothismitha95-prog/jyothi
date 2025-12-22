@@ -1,0 +1,6 @@
+#include<stdio.h>
+void main()
+{
+    int a=20, b=10;
+     printf("subtract and Assign (a-=b)=%d\n", a-=b);
+}
