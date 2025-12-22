@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int a=20, b=10;
+     printf("add and Assign (a+=b)=%d\n", a+=b);
+    printf("subtract and Assign (a-=b)=%d\n", a-=b);
+    printf("multiply and Assign (a*=b)=%d\n", a*=b);
+    printf("divide and Assign (a/=b)=%d\n", a/=b);
+    printf("modulus and Assign (a%=b)=%d\n", a%=b);
+    printf("AND and Assign (a&=b)=%d\n", a&=b);
+    printf("XOR and Assign (a^=b)=%d\n", a^=b);
+    printf("left shift and Assign (a<<=b)=%d\n", a<<=b);
+    printf("right shift and Assign (a>>=b)=%d\n", a>>=b);
+}
