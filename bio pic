@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+    printf("Name=jyothi");
+    printf("age=20");
+    printf("address=tirupathi");
+    printf("state=AP");
+}
