@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() 
+{
+    int a = 10, b = 5;
+    if (a > 15 || b > 3) {
+        printf("At least one condition is true");
+    }
+    return 0;
+}
