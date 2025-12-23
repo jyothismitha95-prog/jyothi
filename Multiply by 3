@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+    int n=9;
+    if(n%3==0)
+        printf("Multiple of 3");
+    return 0;
+}
