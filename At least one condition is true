@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    int a = 5, b = 10;
+    if (a > 10 || b > 5) 
+{
+        printf("At least one condition is true");
+    }
+    return 0;
+}
