@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+    int choice;
+    printf("Enter a number (1–3): ");
+    scanf("%d", &choice);
+    switch (choice)
+    {
+        case 1:
+            printf("You chose One");
+            break;
+        case 2:
+            printf("You chose Two");
+            break;
+        case 3:
+            printf("You chose Three");
+            break;
+        default:
+            printf("Invalid choice");
+    }
+    return 0;
+}
