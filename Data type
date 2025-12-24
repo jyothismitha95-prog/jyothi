@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a=20;
+    float b=34.5;
+    char c='j';
+    printf("%d\n", &a);
+    printf("%d\n", &b);
+    printf("%d\n", &c);
+    return 0;
+}
