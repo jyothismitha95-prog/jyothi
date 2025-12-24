@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 0;
+    if (!a)
+    {
+        printf("a is false");
+    }
+    return 0;
+}
